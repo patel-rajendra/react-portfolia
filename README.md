@@ -1,44 +1,53 @@
 # React Portfolio
 
+## Table of Contents
+
+- [Description](#Description)
+- [Installation](#Installation)
+- [Local Usage](#Local-Usage)
+- [Links](#Links)
+- [License](#License)
 
 
-As an Full Stack Web Developer and a member of the dev community, I want to have an portfolio created with the latest technologies to feature a collection of the best projects I have developed so far, So that I can showcase my professional value in a competitive way to employers.
+## Description
+This application was built using the React framework with focus on single page application (SPA) development. It include About me, My portfolia ans resume links. This application is fully responsive.
 
-* This portfolio features relevant technologies such as JavaScript, HTML, CSS, SQL / NoSQL Databases, MERN: Mongo, Express, Node, React, and polished UI interfaces.
+## Installation
 
-* Every featured project presents a brief description, icons to see the live application and the Github repository and also details button to show details of the project. 
+1. To install application, clone the main project via the HTTP or SSH link on github.
 
-* The footer includes links to my main internet handles on Github, LinkedIn, my Resume and contact email. 
+```
+git clone
+```
+2. Once cloned, open up the project folder in your text editor and run the following command in terminal to install all dependencies.
 
-* This portfolio has been created with [React]() and deployed using Github pages.
+```
+npm install
+```
 
-**Launch the [Portfolio here.]()**  
+## Local-Usage
+Once all dependencies are installed, you can view the application in your local browser by typing in terminal:
+```
+npm start
+```
 
+## Links
 
-# Preview : 
+https://react-portfolia.herokuapp.com/
 
-#### Landing Page: 
+https://www.screencast.com/t/c0nxaDVDf5F6
 
+## Built With
 
+- React
+- Node.js
+- Bootstrap
+- HTML
+- CSS
 
-# Features:
+## License
 
-* Polished UI interface.
-* Mobile first responsive application across devices.
-* React application built using React Router and Components.
-* About me presents my introduction.
-* Portfolio link featuring 9 projects with a preview image and a description.
-* Every project presents icons to launch the app and to see the github repository. Also details button to get each project's details.
-* A footer featuring links to my Github, LinkedIn, contact Email and Resume.
-
-
-# Technology:
-
-* [React]()
-* Node js
-* Bootstrap
-* HTML
-* CSS
+This project is covered under the MIT License.
 
 
 
