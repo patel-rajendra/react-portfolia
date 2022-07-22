@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/css/script.css';
-import resume from '../../assets/GauriKhandkeResume.pdf';
+import resume from '../../assets/RajendraPatel.pdf';
 
 export default function Footer() {
     return (
@@ -10,17 +10,17 @@ export default function Footer() {
                 <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home" style={{fontSize: 30}}><i className="fas fa-angle-up"></i></a></div>
                 
                 <div className ='container mb-3 mt-4' >
-                  <a href="https://github.com/GauriKhandke" className="btn tooltip-test icon" title="Github" target="_blank" rel="noopener noreferrer"      
+                  <a href="https://github.com/patel-rajendra" className="btn tooltip-test icon" title="Github" target="_blank" rel="noopener noreferrer"      
                     style={{fontSize:30, color:'#a6a6a6', marginRight:10}}><i className="fab fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/gaurikhandke/" className="btn tooltip-test icon" title="Linkedin"
+                  <a href="https://www.linkedin.com/in/rajendrakumar-patel/" className="btn tooltip-test icon" title="Linkedin"
                     target="_blank" rel="noopener noreferrer" style={{fontSize:30,color:'#a6a6a6',marginRight:10}}><i className="fab fa-linkedin"></i></a>
-                  <a href="mailto: khandkegauri@gmail.com" className="btn tooltip-test icon" title="Email" target="_blank" rel="noopener noreferrer"
+                  <a href="mailto: patelraj112@gmail.com" className="btn tooltip-test icon" title="Email" target="_blank" rel="noopener noreferrer"
                     style={{fontSize:30, color:'#a6a6a6', marginRight:10}}><i className="fas fa-envelope"></i></a>
                   <a href={ resume } className="btn tooltip-test icon" title="Resume" target="_blank" rel="noopener noreferrer"
                     style={{fontSize:30, color:'#a6a6a6'}}><i className="fas fa-file-pdf"></i></a>
                   <br />
                   <p className="copyright mt-2 text-center" style={{ color :'#a6a6a6',marginRight : '30px',marginTop:'15px'}}>
-                    © Gauri Khandke 2020
+                    © Rajendra Patel 2022
                 </p>
               </div>
          </footer>     
