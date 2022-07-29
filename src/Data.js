@@ -6,6 +6,7 @@ import notetaker from './assets/images/appImages/NoteTaker.jpg';
 import weatherdashboard from './assets/images/appImages/WeatherDashboard.jpg';
 import dayplanner from './assets/images/appImages/DayPlanner.jpg';
 import codequiz from './assets/images/appImages/CodeQuiz.jpg';
+import cineflex from './assets/images/appImages/Cineflex.jpg';
 
 // Demo Gifs
 import googleBooksGif from './assets/images/gifs/Book_Search.gif';
@@ -15,8 +16,20 @@ import noteTakerGif from './assets/images/gifs/NoteTaker.gif';
 import weatherDashboardGif from './assets/images/gifs/WeatherDashboard.gif';
 import codeQuizGif from './assets/images/gifs/CodeQuiz.gif';
 import dayPlannerGif from './assets/images/gifs/DayPlanner.gif';
+import cineflexGif from './assets/images/gifs/Cineflex.gif';
 
 export const projects = [
+  {
+    id: "https://github.com/patel-rajendra/cineflex",
+    title: "CineFlex",
+    description:
+      "CineFlex app allows users to search for movies by title. Once on the user has selected a movie they are able to leave reviews and review scores as well as read through other users reviews of the same movie",
+    imageUrl: cineflex,
+    appUrl: "https://frozen-oasis-34307.herokuapp.com/",
+    gif: cineflexGif,
+    technology: "HTML, CSS, JavaScript, NoSQL databases, React, GraphQL API, MERN, Stripe, PWA",
+    details: "CineFlex application built using MERN stack, with a React front end, MondoDB database and Node.js/Express.js server and API. It allows users to search movie by title, leave reviews and review scores",
+  },
   {
     id: "patel-rajendra/mean-book-search-engine",
     title: "Books Search Engine",
